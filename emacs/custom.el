@@ -62,6 +62,7 @@
 (require 'eglot)
 (add-hook 'go-mode-hook 'eglot-ensure)
 
+
 ;; Optional: install eglot-format-buffer as a save hook.
 ;; The depth of -10 places this before eglot's willSave notification,
 ;; so that that notification reports the actual contents that will be saved.
